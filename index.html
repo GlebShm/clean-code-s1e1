@@ -8,50 +8,52 @@
 </head>
 
 <body>
-  <div class="header">
-    <img src="./eisenhower-matrix.jpg">
+  <header class="header">
+    <img src="./eisenhower-matrix.jpg" class="header-pic">
     <a class="header-link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?</a>
-  </div>
-  <div class="main">
-    <p id="add-task">
-      <label for="new-task">Add Item</label>
+  </header>
+
+  <main class="main">
+    <label for="new-task" class="status-subtitle">Add Item</label>
     <div class="input-wrapper">
       <input id="new-task" class="input-field" type="text">
       <button class="button">Add</button>
     </div>
-    </p>
+
     <h3 class="status-subtitle">Todo</h3>
     <ul id="incompleteTasks" class="incomplete-list list">
       <li class="incomplete-list__item list-item">
-        <input type="checkbox">
-        <label class="input-field">Pay Bills</label>
+        <input type="checkbox" class="checkbox">
+        <label class="input-text">Pay Bills</label>
         <input type="text" class="input-field">
         <button class="edit-btn button">Edit</button>
-        <button class="delete-btn button"><img src="./remove.svg"></button>
+        <button class="delete-btn button"><img src="./remove.svg" class="btn-pic"></button>
       </li>
       <li class="edit-mode incomplete-list__item list-item">
-        <input type="checkbox">
-        <label class="input-field">Go Shopping</label>
+        <input type="checkbox" class="checkbox">
+        <label class="input-text">Go Shopping</label>
         <input type="text" value="Go Shopping" class="input-field">
         <button class="edit-btn button">Save</button>
         <button class="delete-btn button">
-          <img src="./remove.svg"></button>
+          <img src="./remove.svg" class="btn-pic"></button>
       </li>
     </ul>
+
     <h3 class="status-subtitle">Completed</h3>
     <ul id="completed-tasks" class="completed-list list">
       <li class="completed-list__item list-item">
-        <input type="checkbox" checked>
-        <label class="input-field">See the Doctor</label>
+        <input type="checkbox" class="checkbox" checked>
+        <label class="input-text">See the Doctor</label>
         <input type="text" class="input-field">
         <button class="edit-btn button">Edit</button>
         <button class="delete-btn button">
-          <img src="./remove.svg">
+          <img src="./remove.svg" class="btn-pic">
         </button>
       </li>
     </ul>
-  </div>
+  </main>
+
   <script type="text/javascript" src="app.js"></script>
 </body>
 

@@ -8,33 +8,34 @@
 </head>
 
 <body>
-  <div class="aaa">
+  <div class="header">
     <img src="./eisenhower-matrix.jpg">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
+    <a class="header-link" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?</a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="topSectionForAddingElementToList">
+  <div class="main">
+    <p id="add-task">
       <label for="new-task">Add Item</label>
-    <div class="task-row-wrapper">
-      <input id="new-task" class="task" type="text">
+    <div class="input-wrapper">
+      <input id="new-task" class="input-field" type="text">
       <button>Add</button>
     </div>
     </p>
     <h3>Todo</h3>
     <ul id="incompleteTasks">
-      <li><input type="checkbox">
-        <label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete"><img src="./remove.svg"></button>
+      <li>
+        <input type="checkbox">
+        <label class="input-field">Pay Bills</label>
+        <input type="text" class="input-field">
+        <button class="edit-btn">Edit</button>
+        <button class="delete-btn"><img src="./remove.svg"></button>
       </li>
       <li class="edit-mode">
         <input type="checkbox">
-        <label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="edit">Save</button>
-        <button class="delete">
+        <label class="input-field">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="input-field">
+        <button class="edit-btn">Save</button>
+        <button class="delete-btn">
           <img src="./remove.svg"></button>
       </li>
     </ul>
@@ -42,10 +43,10 @@
     <ul id="completed-tasks">
       <li>
         <input type="checkbox" checked>
-        <label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <label class="input-field">See the Doctor</label>
+        <input type="text" class="input-field">
+        <button class="edit-btn">Edit</button>
+        <button class="delete-btn">
           <img src="./remove.svg">
         </button>
       </li>

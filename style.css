@@ -17,7 +17,7 @@ body {
 }
 
 .header-link {
-  font-family: fantasy, cursive;
+  font-family: 'Fantasy', cursive;
 }
 
 @media (max-width:768px) {
@@ -39,7 +39,7 @@ body {
 }
 
 #completed-tasks,
-#incompleteTasks {
+#incompleted-tasks {
   margin: 0;
   padding: 0;
 }
